@@ -21,15 +21,14 @@
 
 body {
   font-size: var(--font-size);
-  max-width: 1400px;
-  width: 85%;
-  margin: 5% auto;
-
   font-family: "Spartan", sans-serif;
 }
 
 .container {
   padding: 0.3rem;
+  max-width: 1400px;
+  width: 85%;
+  margin: 10% auto;
 }
 
 .pattern-top {
@@ -37,6 +36,8 @@ body {
   background: url(../images/bg-pattern-top-mobile.svg);
   height: 232px;
   width: 374px;
+  top: 0;
+  left: 0;
 }
 
 .pattern-bottom {
